@@ -18,7 +18,7 @@ export const HomepageBannerSection: React.FC = () => {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
           </span>
           <span className="text-xs font-mono text-cyan-400">
-            system.status: Online_Available_For_Hire
+            system.status: Online_Open_To_Opportunities_&_Collaboration
           </span>
         </div>
 
@@ -27,7 +27,7 @@ export const HomepageBannerSection: React.FC = () => {
         </h1>
 
         <p className="text-xl font-mono text-slate-400 mb-6">
-          $ web_developer // building_clean_code.exe
+          // web developer
         </p>
 
         <p className="text-slate-300 max-w-2xl text-base leading-relaxed mb-8">
