@@ -20,7 +20,7 @@ export const ResumeSection: React.FC = () => {
               <p className="text-sm font-mono text-slate-400">Cordova Public College</p>
             </div>
             <span className="text-xs font-mono px-3 py-1 rounded bg-slate-950 text-cyan-400 border border-slate-800 w-fit">
-              2024 - Present
+              2026 - 2027
             </span>
           </div>
 
@@ -47,7 +47,7 @@ export const ResumeSection: React.FC = () => {
               <p className="text-sm font-mono text-slate-400">Junior Web Developer</p>
             </div>
             <span className="text-xs font-mono px-3 py-1 rounded bg-slate-950 text-cyan-400 border border-slate-800 w-fit">
-              2025 - 2026
+              2026 - 2027
             </span>
           </div>
 
