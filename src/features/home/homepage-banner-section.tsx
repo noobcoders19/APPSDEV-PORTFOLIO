@@ -58,7 +58,7 @@ export const HomepageBannerSection: React.FC = () => {
         <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl blur opacity-50 group-hover:opacity-100 transition duration-500"></div>
         <div className="relative w-full h-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-900">
           <img 
-            src="/profile.jpg" 
+            src="/pf2.jpg.png" 
             alt="John Clyde" 
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
