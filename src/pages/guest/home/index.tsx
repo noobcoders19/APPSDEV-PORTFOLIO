@@ -32,7 +32,7 @@ export default function HomePage(): React.JSX.Element {
 
         <ResumeSection />
 
-        {/* --- DIRECT GMAIL CONTACT SECTION --- */}
+        {/* Hadles Send message to email logic */}
         <section id="contact" className="py-20 text-center border-t border-slate-900">
           <h2 className="text-2xl sm:text-3xl font-mono text-cyan-400 font-bold mb-2">
             &lt; Get_In_Touch /&gt;
