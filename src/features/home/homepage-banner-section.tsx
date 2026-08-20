@@ -27,7 +27,7 @@ export const HomepageBannerSection: React.FC = () => {
         </h1>
 
         <p className="text-xl font-mono text-slate-400 mb-6">
-          // web developer
+          // BSIT 3D
         </p>
 
         <p className="text-slate-300 max-w-2xl text-base leading-relaxed mb-8">
