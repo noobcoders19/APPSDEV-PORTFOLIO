@@ -13,7 +13,7 @@ interface Project {
 const PROJECTS: Project[] = [
   {
     id: 'attendance-system',
-    category: 'FULL STACK WEB APP',
+    category: 'SIMPLE SYSTEM DATABASE',
     title: 'Attendance System',
     description: 'Attendance tracking system built with comprehensive record management and real-time monitoring workflows.',
     tags: ['PHP', 'MySQL', 'CSS', 'JavaScript'],
@@ -40,7 +40,7 @@ export const CardDataSection: React.FC = () => {
           <h2 className="text-4xl font-extrabold text-white tracking-tight">Main Project Hub</h2>
         </div>
         <p className="text-sm font-mono text-slate-400">
-          $ system.core_project_modules --verified
+          System Sample Project
         </p>
       </div>
 
