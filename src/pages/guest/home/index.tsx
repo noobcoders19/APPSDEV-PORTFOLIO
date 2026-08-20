@@ -6,12 +6,12 @@ import { ResumeSection } from '../../../features/home/resume-section';
 
 export default function HomePage(): React.JSX.Element {
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Detect mobile device
+    // To access mobile devices
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     if (!isMobile) {
       e.preventDefault();
-      // Directly opens Gmail web compose tab on PC/Laptop
+      // For gmail direct logic
       window.open(
         'https://mail.google.com/mail/?view=cm&fs=1&to=nunezjohnclydee@gmail.com&su=Portfolio%20Inquiry',
         '_blank',
