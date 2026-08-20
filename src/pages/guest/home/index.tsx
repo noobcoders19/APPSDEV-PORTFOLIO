@@ -22,7 +22,7 @@ export default function HomePage(): React.JSX.Element {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between">
       <Header />
       <main>
         <HomepageBannerSection />
@@ -57,6 +57,18 @@ export default function HomePage(): React.JSX.Element {
           </a>
         </section>
       </main>
+
+      {/* --- FOOTER SECTION --- */}
+      <footer className="py-6 border-t border-slate-900 bg-slate-950/80 text-xs font-mono text-slate-400">
+        <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <p>
+            Copyright &copy; 2026 John Clyde Nunez. All rights reserved.
+          </p>
+          <p className="text-cyan-400/80">
+            Application Development
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
