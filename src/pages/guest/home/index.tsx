@@ -3,6 +3,7 @@ import { Header } from '../../../components/common/header';
 import { HomepageBannerSection } from '../../../features/home/homepage-banner-section';
 import { CardDataSection } from '../../../features/home/card-data-section';
 import { ResumeSection } from '../../../features/home/resume-section';
+import { CredentialsSection } from '../../../features/home/credentials-section';
 
 export default function HomePage(): React.JSX.Element {
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -29,6 +30,9 @@ export default function HomePage(): React.JSX.Element {
         <div id="projects">
           <CardDataSection />
         </div>
+
+        {/* Education & Skills Section */}
+        <CredentialsSection />
 
         <ResumeSection />
 
